@@ -32,3 +32,26 @@ El proyecto incluye consultas SQL para:
 - Eliminar registros con `DELETE`
 
 ## Estructura del proyecto
+
+agro-data-manager  
+├ database.sql  
+├ consultas.sql  
+├ README.md  
+└ screenshots  
+&nbsp;&nbsp;&nbsp;&nbsp;├ select-cultivos.png  
+&nbsp;&nbsp;&nbsp;&nbsp;├ join.png  
+&nbsp;&nbsp;&nbsp;&nbsp;└ groupby-cultivos.png
+
+## Query Results
+
+### Select Cultivos
+
+![Select Cultivos](screenshots/select-cultivos.png)
+
+### Join Cultivos and Fincas
+
+![Join](screenshots/join.png)
+
+### Group By Cultivo
+
+![GroupBy](screenshots/groupby-cultivos.png)
