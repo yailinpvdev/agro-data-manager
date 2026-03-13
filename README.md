@@ -1,39 +1,34 @@
 # Agro Data Manager
 
-Proyecto de práctica utilizando MySQL para gestionar datos de cultivos y fincas.
+Proyecto de práctica utilizando **MySQL y SQL** para gestionar datos de cultivos y fincas.
+
+## Descripción
+
+Este proyecto consiste en el diseño de una base de datos para registrar información de cultivos agrícolas y fincas.
+
+Se implementan consultas SQL para manipular y analizar datos.
 
 ## Tecnologías utilizadas
 
 - MySQL
 - SQL
+- Git
+- GitHub
 
-## Descripción
+## Funcionalidades implementadas
 
-Este proyecto consiste en el diseño de una base de datos para registrar información de cultivos agrícolas.
+El proyecto incluye consultas SQL para:
 
-Se implementan consultas SQL para:
-
-- Crear bases de datos
+- Crear base de datos
 - Crear tablas
 - Insertar registros
-- Consultar datos
-- Filtrar información
-- Ordenar resultados
-- Contar registros
-- Agrupar datos
-- Unir tablas con JOIN
+- Consultar información
+- Filtrar datos con `WHERE`
+- Ordenar resultados con `ORDER BY`
+- Contar registros con `COUNT`
+- Agrupar datos con `GROUP BY`
+- Unir tablas con `JOIN`
+- Actualizar registros con `UPDATE`
+- Eliminar registros con `DELETE`
 
 ## Estructura del proyecto
-
-database.sql → estructura de la base de datos  
-consultas.sql → consultas SQL utilizadas para manipular y analizar los datos
-
-## Ejemplo de consulta
-
-```sql
-SELECT cultivo, COUNT(*) AS total
-FROM cultivos
-GROUP BY cultivo;
-```
-
-Proyecto de práctica desarrollado para aprender SQL y diseño de bases de datos.
