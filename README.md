@@ -35,3 +35,5 @@ SELECT cultivo, COUNT(*) AS total
 FROM cultivos
 GROUP BY cultivo;
 ```
+
+Proyecto de práctica desarrollado para aprender SQL y diseño de bases de datos.
